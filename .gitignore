@@ -21,4 +21,6 @@ tags
 _dummy.jpg
 bmptk_*_stack.c
 _cpp_flags
+_cc_flags
+_run.bat
 _linker_flags
