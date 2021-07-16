@@ -42,11 +42,11 @@ public:
 
    static const bool gpio_marker = true;
    
-   static void mode_output() {
+   static inline void mode_output() {
       info.direction = info.direction | info.mask;
    }
 
-   static void write( bool value ){
+   static inline void write( bool value ){
       if( value ){
          info.data = info.data | info.mask;
       } else {
