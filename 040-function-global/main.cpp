@@ -13,11 +13,11 @@ void blink(){
 
       LED_PORT = LED_PORT | LED_MASK;
       
-      for( uint32_t i = 0; i < 500'000; ++i ){ asm( "nop" ); }
+      //for( uint32_t i = 0; i < 500'000; ++i ){ asm( "nop" ); }
       
       LED_PORT = LED_PORT & ~ LED_MASK;
       
-      for( uint32_t i = 0; i < 500'000; ++i ){ asm( "nop" ); }
+      //for( uint32_t i = 0; i < 500'000; ++i ){ asm( "nop" ); }
    }    
 }
 

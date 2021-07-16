@@ -33,17 +33,23 @@ const single_pin_info pin_info [] = {
 };
 
 class gpio {
+public:   
+   virtual void mode_output() = 0;
+   virtual void write( bool value ) = 0;
+};
+
+class atmega328_gpio : public gpio {
 private:
    const single_pin_info & info;
       
 public:   
-   gpio( pin p ): info( pin_info[ static_cast< int >( p ) ] ) {}
+   atmega328_gpio( pin p ): info( pin_info[ static_cast< int >( p ) ] ) {}
    
-   void mode_output() {
+   void mode_output() override {
       info.direction = info.direction | info.mask;
    }
 
-   void write( bool value ){
+   void write( bool value ) override {
       if( value ){
          info.data = info.data | info.mask;
       } else {
@@ -64,7 +70,7 @@ void blink( gpio & p ){
 }
 
 int main( void ){	
-   auto led = gpio( pin::b5 );
+   auto led = atmega328_gpio( pin::b5 );
    blink( led );
 }   
 

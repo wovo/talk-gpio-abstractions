@@ -1,0 +1,9 @@
+- embedded C++: everyone seems to be on its own; Rust: almost a single environment
+- also for build environment
+
+- term for type passing (tag type?)
+- add speed figures
+- copy base class
+- note what 0-overhead means
+
+Odin's "you are using singletons!"
