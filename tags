@@ -1,0 +1,5 @@
+LED_DDR	C:\ti-software\talk-gpio-abstractions\040-function-global\main.cpp	/^#define LED_DDR     DDRB$/;"	macro	line:4
+LED_PORT	C:\ti-software\talk-gpio-abstractions\040-function-global\main.cpp	/^#define LED_PORT    PORTB$/;"	macro	line:5
+LED_MASK	C:\ti-software\talk-gpio-abstractions\040-function-global\main.cpp	/^#define LED_MASK    ( 0b01 << 5 )$/;"	macro	line:6
+blink	C:\ti-software\talk-gpio-abstractions\040-function-global\main.cpp	/^void blink(){$/;"	function	line:8	signature:()	returns:void 
+main	C:\ti-software\talk-gpio-abstractions\040-function-global\main.cpp	/^int main( void ){	$/;"	function	line:24	signature:( void )	returns:int 
