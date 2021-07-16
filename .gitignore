@@ -5,6 +5,7 @@ _codelite.project
 _codelite.session
 __codelite.workspace
 ~$*.docx
+tags
 .project
 *.o
 *.bin
