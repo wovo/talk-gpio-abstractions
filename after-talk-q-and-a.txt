@@ -1,0 +1,30 @@
+I interpreted embedded as SAMLL embedded (like: micro-controller, definitely not Linux, probably no RTOS)
+
+“Where do you see the strength of C++/Rust with respect to embedded?”
+
+C++: established, appeals to professionals and industry, track record for backwards compatibility
+Rust: fresh start, borrow checker, appeals to hobbyist (which are often professionals!), agile 
+
+“Where do you see potential for improvement in C++/Rust with respect to embedded?”
+“What would you wish for in the next year/for the next release of C++/Rust to improve the situation?”
+
+C++: not the language itself, but a set of best practices / books / curricula suited to embedded
+Rust: stability, professional (corporate) backing, also a body of knowledge!
+
+Note: I never mentioned the language itself!
+
+“Into which of the 4 categories shown by Wouter would the Rust approach fall? What is it closest too?”
+
+“Is is possible to embed Rust in an existing C++ Project? When does that make sense? And vice versa?”
+
+I have no experience with this. 
+Of course always the case "I want to program in X but I have this library in Y"
+
+“Are there success stories that involve C++ and Rust (hint hint firefox)”
+
+You mean involve both languages? 
+Sorry, not that I am aware of, but note that that means very little.
+
+“Did you learn something new by participating in this cross pollination event?”
+
+Preparing this talk was a more involved effort than any of the talks I did on conferences ;)
