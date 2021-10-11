@@ -2,16 +2,16 @@ I interpreted embedded as SMALL embedded (like: micro-controller, definitely not
 
 “Where do you see the strength of C++/Rust with respect to embedded?”
 
-C++: established, appeals to professionals and industry, track record for backwards compatibility
-Rust: fresh start, borrow checker!, appeals to hobbyist (which are often just professionals in their spare time), agile 
+C++: established, appeals to professionals and industry, track record for backwards compatibility, careful evolution
+Rust: fresh start, borrow checker!, appeals to hobbyist (which are often just professionals in their spare time), agile evolution
 
 “Where do you see potential for improvement in C++/Rust with respect to embedded?”
 “What would you wish for in the next year/for the next release of C++/Rust to improve the situation?”
 
-C++: a body of best practices / books / curricula suited to embedded
+C++: community, a body of best practices / books / curricula /suited to embedded
 Rust: stability, professional (corporate) backing, also a body of knowledge!
 
-Seriously: IMO one of the worst things that happened to C++ in the last 10 years was the retirement of Scott Meyers.
+Seriously: IMO one of the worst things that happened to C++ in the last 10 years was the retirement of Scott Meyers, the author of books that realy explain in detail how C++ features work and should be used. 
 
 Note: I never mentioned the languages themselves!
 
@@ -29,8 +29,8 @@ Sorry, not that I am aware of, but note that that means very little.
 
 “Did you learn something new by participating in this cross pollination event?”
 
-Preparing this talk involved more preparation (and involvment from the hosts) than any of the talks I did on conferences ;)
+Preparing this talk involved more preparation (and involvement from the hosts) than any of the talks I did on big conferences ;)
 
-A gaze in my crystal ball. In 10 years from now:
+A gazed in my crystal ball. In 10 years from now:
 - Rust has been superseded by Oxide, which is still changing to fast to be of widespread use.
-- C++30 has incorporated every good feature of Rust, and just to be on the safe side, all the bad ones too. The GCC and Clang teams have merged, and hope to implement most of these features by 2040. The last person that was rumored to understand all of C++ died 5 years ago.
+- C++30 has incorporated every good feature of Rust, and just to be on the safe side, all the other ones too. While, of course, retaining backwards compatibility all the way back to C. The GCC and Clang teams have merged, and hope to implement most of these features by 2040. The last person that was rumored to understand all of C++ died 5 years ago.
