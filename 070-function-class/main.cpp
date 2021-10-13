@@ -64,9 +64,9 @@ void blink(){
    P::mode_output();
    for(;;){
       P::write( 1 );
-      for( uint32_t i = 0; i < 500'000; ++i ){ asm( "nop" ); }
+      //for( uint32_t i = 0; i < 500'000; ++i ){ asm( "nop" ); }
       P::write( 0 );
-      for( uint32_t i = 0; i < 500'000; ++i ){ asm( "nop" ); }
+      //for( uint32_t i = 0; i < 500'000; ++i ){ asm( "nop" ); }
    }    
 }
 
